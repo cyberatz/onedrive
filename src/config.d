@@ -118,6 +118,8 @@ final class Config
 		longValues["sync_file_permissions"] = defaultFilePermissionMode;
 		// Configure download / upload rate limits
 		longValues["rate_limit"] = 0;
+		// Support Custom refresh_token location *** TODO: NOT IMPLIMENTED YET ***
+		stringValues["refreshTokenFilePath"] = "");
 		
 		// DEVELOPER OPTIONS 
 		// display_memory = true | false
